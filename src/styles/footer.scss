@@ -1,0 +1,25 @@
+.footer-Full {
+  padding: 40px;
+
+  margin-bottom: 80px;
+  .footer-Link {
+    color: black;
+    font-size: 1.5rem;
+    @include media(">=250px", "<lgphone") {
+      font-size: 1rem;
+    }
+  }
+  .site-wrapper {
+    //   display: flex;
+    //width: 10em;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 30px;
+
+    .logos {
+      cursor: pointer;
+      color: black;
+    }
+  }
+}

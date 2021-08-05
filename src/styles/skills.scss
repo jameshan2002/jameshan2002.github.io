@@ -1,0 +1,30 @@
+.skill-top {
+  width: 80vw;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 8vh;
+}
+
+.skills-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  div {
+    max-width: 190px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+    p {
+      font-size: 1.1rem;
+    }
+  }
+  @include media(">=250px", "<lgphone") {
+    flex-direction: column;
+  }
+  @include media(">=lgphone", "<tablet") {
+    flex-direction: column;
+  }
+  @include media(">=tablet", "<desktop") {
+    flex-wrap: wrap;
+  }
+}

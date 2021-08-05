@@ -1,0 +1,84 @@
+.full-Header {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+
+  .navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .name {
+      margin: 0;
+      font-weight: 600;
+    }
+    .links-wrapper {
+      .header-links {
+        text-decoration: none;
+        padding: 10px;
+        opacity: 0.6;
+        transition: all 0.2s ease-in-out;
+        font-size: 12px;
+        background-color: transparent;
+        outline: none;
+        border: 0px;
+        cursor: pointer;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .active {
+        color: black;
+      }
+    }
+  }
+
+  .headings {
+    margin-top: 12vh;
+    .site-wrapper {
+      //   display: flex;
+      width: 10em;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 0 auto;
+      margin-top: 70px;
+    }
+    h2 {
+      font-size: 1.3rem;
+      text-align: center;
+      @include media(">=250px", "<lgphone") {
+        font-size: 14px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 16px;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 16px;
+      }
+    }
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      line-height: 70px;
+      margin: 0;
+      @include media(">=250px", "<lgphone") {
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin: 0;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin: 0;
+      }
+      @include media(">=tablet", "<desktop") {
+        font-size: 2.5rem;
+        line-height: 50px;
+      }
+    }
+    .logos {
+      cursor: pointer;
+      color: black;
+    }
+  }
+}
