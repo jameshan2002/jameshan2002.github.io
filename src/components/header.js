@@ -1,5 +1,6 @@
 import { Github, Linkedin, EnvelopeFill } from "react-bootstrap-icons";
 import { Link, animateScroll as scroll } from "react-scroll";
+import Fade from "react-reveal/Fade";
 
 const sideWidth = {
   marginRight: "20px",
@@ -44,32 +45,34 @@ const Header = () => {
         </div>
       </div>
       <div className="headings">
-        <h2>Hi, I'm James 👋</h2>
-        <h1>Software Developer with</h1>
-        <h1>big boi energy.</h1>
-        <div className="site-wrapper">
-          <a
-            href="https://github.com/jameshan2002"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Github size={40} style={sideWidth} className="logos"></Github>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/jameshan-utd"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Linkedin size={40} style={sideWidth} className="logos" />
-          </a>
-          <a
-            href="mailto:James.Han2@UTDallas.edu"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <EnvelopeFill size={40} className="logos" />
-          </a>
-        </div>
+        <Fade bottom>
+          <h2>Hi, I'm James 👋</h2>
+          <h1>Software Developer with</h1>
+          <h1>a cool portfolio.</h1>
+          <div className="site-wrapper">
+            <a
+              href="https://github.com/jameshan2002"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Github size={40} style={sideWidth} className="logos"></Github>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jameshan-utd"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Linkedin size={40} style={sideWidth} className="logos" />
+            </a>
+            <a
+              href="mailto:James.Han2@UTDallas.edu"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <EnvelopeFill size={40} className="logos" />
+            </a>
+          </div>
+        </Fade>
       </div>
     </div>
   );

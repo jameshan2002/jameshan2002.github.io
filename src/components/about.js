@@ -1,8 +1,12 @@
+import Fade from "react-reveal/Fade";
+
 const about = () => {
   return (
     <div className="about-container">
       <div className="about-contents">
-        <h1>About Me</h1>
+        <Fade cascade>
+          <h1>About Me</h1>
+        </Fade>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
