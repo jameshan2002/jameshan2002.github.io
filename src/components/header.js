@@ -55,21 +55,21 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <Github size={40} style={sideWidth} className="logos"></Github>
+              <Github size={30} style={sideWidth} className="logos"></Github>
             </a>
             <a
               href="https://www.linkedin.com/in/jameshan-utd"
               target="_blank"
               rel="noreferrer"
             >
-              <Linkedin size={40} style={sideWidth} className="logos" />
+              <Linkedin size={30} style={sideWidth} className="logos" />
             </a>
             <a
               href="mailto:James.Han2@UTDallas.edu"
               target="_blank"
               rel="noreferrer"
             >
-              <EnvelopeFill size={40} className="logos" />
+              <EnvelopeFill size={30} className="logos" />
             </a>
           </div>
         </Fade>

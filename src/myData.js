@@ -35,7 +35,7 @@ export default {
     },
     {
       title: "Movie App", //Project Title - Add Your Project Title Here
-      para: "A movie app using React.js showing the trending movies.", // Add Your Service Type Here
+      para: "A movie app using React.js showing the trending movies using YTS API.", // Add Your Service Type Here
       paraUsed: "Made with : React.js",
       //Project Image - Add Your Project Image Here
       imageSrc:
