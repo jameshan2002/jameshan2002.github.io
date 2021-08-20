@@ -44,6 +44,18 @@
     display: flex;
     align-items: flex-start;
     justify-content: start;
+    @include media(">2500px") {
+      width: 70%;
+      margin: auto;
+    }
+    @include media(">=desktop", "<=2500px") {
+    }
+    @include media(">=750px", "<=1500px") {
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
     .card {
       width: 28rem;
       height: 15em;
@@ -80,6 +92,11 @@
       }
       .seperator {
         margin-left: 10px;
+      }
+
+      @include media(">=750px", "<=1500px") {
+        text-align: center;
+        margin-left: 0px;
       }
     }
   }

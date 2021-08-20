@@ -9,7 +9,7 @@ const skills = () => {
         </div>
         <div>
           <h3>Frameworks / Libraries</h3>
-          <p>React.js, Tailwind CSS, Jest, Bootstrap, Discord.js</p>
+          <p>React.js, Tailwind CSS, Sass, Jest, Bootstrap, Discord.js</p>
         </div>
         <div>
           <h3>Tools</h3>
