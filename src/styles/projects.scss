@@ -50,7 +50,7 @@
     }
     @include media(">=desktop", "<=2500px") {
     }
-    @include media(">=750px", "<=1500px") {
+    @include media(">=750px", "<=1300px") {
       flex-wrap: wrap;
       margin: 0 auto;
       justify-content: center;
@@ -94,7 +94,7 @@
         margin-left: 10px;
       }
 
-      @include media(">=750px", "<=1500px") {
+      @include media(">=750px", "<=1300px") {
         text-align: center;
         margin-left: 0px;
       }
