@@ -6,6 +6,7 @@ Personal Portfolio made in React.js
 
 ### What is made with
 - React.js
+- Sass
 - npm
 - git
 - Bootstrap Icons
