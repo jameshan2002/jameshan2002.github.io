@@ -13,7 +13,7 @@ const skills = () => {
         </div>
         <div>
           <h3>Tools</h3>
-          <p>GitHub, Git, Webpack, Figma</p>
+          <p>GitHub, Git, Webpack, Bash Shell, Figma</p>
         </div>
       </div>
     </div>
