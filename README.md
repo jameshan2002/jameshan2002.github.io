@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Personal Portfolio made in React.js
+Personal Portfolio made in React.js and Sass
 
 - [Link Here](https://jameshan2002.github.io)
 
