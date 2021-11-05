@@ -13,7 +13,7 @@ const Card = ({ heading, paragraph, codeUsed, imgUrl, demoLink, codeLink }) => {
       <div className="container">
         <h2 className="header">{heading}</h2>
         <p className="text">{paragraph}</p>
-        <p className="text">{codeUsed}</p>
+        <p className="used">{codeUsed}</p>
         <a
           href={demoLink ? demoLink : "#"}
           target="_blank"

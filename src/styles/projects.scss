@@ -1,5 +1,8 @@
 .work-wrapper {
   margin-top: 12vh;
+  h1 {
+    margin-bottom: 45px;
+  }
   .grid {
     display: flex;
     width: 80vw;
@@ -79,6 +82,11 @@
       .text {
         max-width: 600px;
         font-size: 1.1em;
+      }
+      .used {
+        max-width: 600px;
+        font-size: 1.1em;
+        margin-bottom: 25px;
       }
       .btn {
         background-color: black;
