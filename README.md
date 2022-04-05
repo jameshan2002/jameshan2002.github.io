@@ -2,7 +2,7 @@
 
 Personal Portfolio made in React.js and Sass
 
-- [Link Here](https://jameshan2002.github.io)
+- [Link Here](https://notjameshan.github.io)
 
 ### What is made with
 - React.js
