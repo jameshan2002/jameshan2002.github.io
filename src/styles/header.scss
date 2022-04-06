@@ -19,7 +19,7 @@
         padding: 10px;
         opacity: 0.6;
         transition: all 0.2s ease-in-out;
-        font-size: 12px;
+        font-size: 0.8em;
         background-color: transparent;
         outline: none;
         border: 0px;
@@ -35,7 +35,7 @@
   }
 
   .headings {
-    margin-top: 12vh;
+    margin-top: 15vh;
     .site-wrapper {
       //   display: flex;
       width: 10em;
@@ -45,7 +45,7 @@
       margin-top: 70px;
     }
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.1em;
       text-align: center;
       @include media(">=250px", "<lgphone") {
         font-size: 14px;
@@ -58,22 +58,22 @@
       }
     }
     h1 {
-      font-size: 4rem;
+      font-size: 4em;
       text-align: center;
       line-height: 70px;
       margin: 0;
       @include media(">=250px", "<lgphone") {
-        font-size: 1.5rem;
+        font-size: 1.5em;
         line-height: 30px;
         margin: 0;
       }
       @include media(">=lgphone", "<tablet") {
-        font-size: 1.5rem;
+        font-size: 1.5em;
         line-height: 30px;
         margin: 0;
       }
       @include media(">=tablet", "<desktop") {
-        font-size: 2.5rem;
+        font-size: 2.5em;
         line-height: 50px;
       }
     }

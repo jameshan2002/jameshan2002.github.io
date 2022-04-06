@@ -8,9 +8,9 @@
 
   .footer-Link {
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.2em;
     @include media(">=250px", "<lgphone") {
-      font-size: 1rem;
+      font-size: 1em;
     }
   }
   .site-wrapper {

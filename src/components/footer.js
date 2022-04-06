@@ -9,19 +9,19 @@ const footer = () => {
   return (
     <div className="footer-Full">
       <Fade bottom cascade>
-        <h1 style={{ fontSize: "2.9em" }}>Contact</h1>
-        <h2>I'd Love To Connect With You.</h2>
+        <h1 style={{ fontSize: "2.5em" }}>Contact</h1>
+        <h2 style={{ fontSize: "1.35em" }}>I'd Love To Connect With You.</h2>
         <a
-          href="mailto:James.Han2@UTDallas.edu"
+          href="mailto:contactJamesHan@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="footer-Link"
         >
-          James.Han2@UTDallas.edu
+          contactJamesHan@gmail.com
         </a>
         <div className="site-wrapper">
           <a
-            href="https://github.com/jameshan2002"
+            href="https://github.com/notjameshan"
             target="_blank"
             rel="noreferrer"
           >
@@ -35,7 +35,7 @@ const footer = () => {
             <Linkedin size={30} style={sideWidth} className="logos" />
           </a>
           <a
-            href="mailto:James.Han2@UTDallas.edu"
+            href="mailto:contactJamesHan@gmail.com"
             target="_blank"
             rel="noreferrer"
           >

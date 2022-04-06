@@ -38,7 +38,7 @@ const Card = ({ heading, paragraph, codeUsed, imgUrl, demoLink, codeLink }) => {
 const projects = () => {
   return (
     <div className="work-wrapper">
-      <h1 style={{ fontSize: "2.9em" }}>Projects</h1>
+      <h1 style={{ fontSize: "2.5em" }}>Projects</h1>
       <div className="grid">
         {data.projects.map((project, index) => (
           <Card

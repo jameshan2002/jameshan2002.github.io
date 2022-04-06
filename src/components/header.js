@@ -51,7 +51,7 @@ const Header = () => {
           <h1>a cool portfolio.</h1>
           <div className="site-wrapper">
             <a
-              href="https://github.com/jameshan2002"
+              href="https://github.com/notjameshan"
               target="_blank"
               rel="noreferrer"
             >
@@ -65,7 +65,7 @@ const Header = () => {
               <Linkedin size={30} style={sideWidth} className="logos" />
             </a>
             <a
-              href="mailto:James.Han2@UTDallas.edu"
+              href="mailto:contactJamesHan@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
