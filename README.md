@@ -12,4 +12,4 @@ Personal Portfolio made in React.js and Sass
 - Bootstrap Icons
 - scroll-react
 
-![image](https://user-images.githubusercontent.com/77949696/132927094-4f24d944-b0db-4a07-b631-e93dc17ec8f4.png)
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/77949696/161872212-8d0f9573-5f4b-476e-8b95-d503411991ce.png">
