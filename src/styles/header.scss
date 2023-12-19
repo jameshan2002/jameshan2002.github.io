@@ -37,25 +37,14 @@
   .headings {
     margin-top: 15vh;
     .site-wrapper {
-      //   display: flex;
-      width: 10em;
-      justify-content: space-evenly;
+      display: flex;
+      justify-content: center;
       align-items: center;
-      margin: 0 auto;
       margin-top: 70px;
     }
     h2 {
-      font-size: 1.1em;
+      font-size: var(--header-font-size);
       text-align: center;
-      @include media(">=250px", "<lgphone") {
-        font-size: 14px;
-      }
-      @include media(">=lgphone", "<tablet") {
-        font-size: 16px;
-      }
-      @include media(">=tablet", "<desktop") {
-        font-size: 16px;
-      }
     }
     h1 {
       font-size: 4em;

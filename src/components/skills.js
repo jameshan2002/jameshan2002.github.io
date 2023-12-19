@@ -1,20 +1,25 @@
 const skills = () => {
   return (
-    <div className="skill-top">
-      <h1 style={{ fontSize: "2.5em" }}>Skills</h1>
-      <div className="skills-content">
-        <div>
-          <h3>Languages</h3>
-          <p>Java, Python, Typescript, Javascript, C++, C, HTML / CSS</p>
-        </div>
-        <div>
-          <h3>Frameworks / Libraries</h3>
-          <p>React, Tailwind CSS, Sass, Jest, Bootstrap, Discord.js</p>
-        </div>
-        <div>
-          <h3>Tools</h3>
-          <p>GitHub, Git, Webpack, Bash Shell, Figma</p>
-        </div>
+    <div className="card-container">
+      <h1>Skills</h1>
+      <div className="grid">
+        <article className="content">
+          <div className="container">
+            {/* <div className="headerContainer">
+              <h2 className="header">head</h2>
+            </div> */}
+            <h3 className="subHeader">Language</h3>
+            <span className="text">
+              Python, Java, TypeScript, JavaScript, C++, C, HTML/CSS
+            </span>
+            <h3 className="subHeader">Frameworks and Libraries</h3>
+            <p className="text">React.js, Node.js, Jest</p>
+            <h3 className="subHeader">Platforms and Technologies</h3>
+            <p className="text">
+              AWS, GCP, Docker, Git, MongoDB, Heroku, Vercel
+            </p>
+          </div>
+        </article>
       </div>
     </div>
   );

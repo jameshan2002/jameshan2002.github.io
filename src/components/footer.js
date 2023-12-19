@@ -1,5 +1,5 @@
 import { Github, Linkedin, EnvelopeFill } from "react-bootstrap-icons";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 const sideWidth = {
   marginRight: "20px",
@@ -8,9 +8,8 @@ const sideWidth = {
 const footer = () => {
   return (
     <div className="footer-Full">
-      <Fade bottom cascade>
-        <h1 style={{ fontSize: "2.5em" }}>Contact</h1>
-        <h2 style={{ fontSize: "1.35em" }}>I'd Love To Connect With You.</h2>
+      <Fade cascade triggerOnce>
+        <h3>I'd Love To Talk With You.</h3>
         <a
           href="mailto:contactJamesHan@gmail.com"
           target="_blank"
@@ -19,6 +18,7 @@ const footer = () => {
         >
           contactJamesHan@gmail.com
         </a>
+
         <div className="site-wrapper">
           <a
             href="https://github.com/notjameshan"

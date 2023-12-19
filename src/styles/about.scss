@@ -1,21 +1,26 @@
 .about-container {
-  margin-top: 10vh;
-  width: 80vw;
+  margin: 0 auto;
+  margin-top: calc(var(--gap) * 6);
+  max-width: 1080px;
   padding: 20px;
   display: flex;
-  justify-content: space-evenly;
+
+  justify-content: center;
   align-items: center;
   text-align: left;
+
   .about-contents {
     h1 {
       margin: 0 auto;
       font-size: 3.5em;
     }
     p {
-      max-width: 49rem;
-      font-size: 1em;
+      max-width: 800px;
+      line-height: 1.6;
+      font-size: var(--paragraph-font-size);
     }
   }
+
   .about-img {
     margin-left: 60px;
     width: 160px;
@@ -25,6 +30,7 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
   @include media(">=250px", "<lgphone") {
     margin: 0 auto;
     flex-wrap: wrap;

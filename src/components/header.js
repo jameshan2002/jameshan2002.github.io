@@ -1,6 +1,6 @@
 import { Github, Linkedin, EnvelopeFill } from "react-bootstrap-icons";
 import { Link, animateScroll as scroll } from "react-scroll";
-import Fade from "react-reveal/Fade";
+import { Zoom } from "react-awesome-reveal";
 
 const sideWidth = {
   marginRight: "20px",
@@ -17,24 +17,24 @@ const Header = () => {
           <Link
             className="header-links"
             activeClass="active"
-            to="projects"
+            to="experiences"
             spy={true}
             smooth={true}
             offset={50}
             duration={500}
           >
-            Projects
+            Experience
           </Link>
           <Link
             className="header-links"
             activeClass="active"
-            to="about"
+            to="projects"
             spy={true}
             smooth={true}
             offset={50}
             duration={700}
           >
-            About
+            Project
           </Link>
           <button
             className="header-links"
@@ -45,7 +45,7 @@ const Header = () => {
         </div>
       </div>
       <div className="headings">
-        <Fade bottom>
+        <Zoom triggerOnce>
           <h2>Hi, I'm James 👋</h2>
           <h1>Software Developer with</h1>
           <h1>a cool portfolio.</h1>
@@ -72,7 +72,7 @@ const Header = () => {
               <EnvelopeFill size={30} className="logos" />
             </a>
           </div>
-        </Fade>
+        </Zoom>
       </div>
     </div>
   );
