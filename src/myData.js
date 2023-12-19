@@ -17,7 +17,8 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: [acmresearch, acmresearch2, acmresearch3],
       //Project URL - Add Your Project Url Here
-      urlCode: "https://github.com/notJamesHan/Stacked",
+      urlCode:
+        "https://github.com/ACM-Research/reinforcement-learning-traffic-control",
       urlDemo: "",
     },
     {
