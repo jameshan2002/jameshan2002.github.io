@@ -65,7 +65,7 @@ export default {
   ],
   experiences: [
     {
-      companyName: "Samsung Research America - NEON",
+      companyName: "Samsung Research America",
       jobTitle: "Software Engineering Intern",
       date: "Aug 2023 - Current",
       bulletpoints: [
@@ -75,7 +75,7 @@ export default {
         "Reduced API errors by integrating CI/CD pipelines and conducting stress and unit testing over 30+ API routes.",
         "Revamped code structure improved by 70% in website loading speed by using TypeScript and Webpack.",
       ],
-      imageSrc: [neonphoto, neonphoto2, neonphoto3, neonphoto4, neonphoto5],
+      imageSrc: [],
       url: "https://neonlife.ai",
       skills:
         "Python · TypeScript · React.js · Amazon Web Services (AWS) · Docker · Kubernetes",
