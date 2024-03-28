@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.02ab49ab.css",
-    "main.js": "/static/js/main.2cacfe6a.js",
+    "main.css": "/static/css/main.5d80f09d.css",
+    "main.js": "/static/js/main.818bd0fe.js",
+    "static/media/about3.jpg": "/static/media/about3.906f0a57926d29d18f8e.jpg",
+    "static/media/about2.jpg": "/static/media/about2.b3add2640a8e852d1558.jpg",
+    "static/media/about4.jpg": "/static/media/about4.6da1a1240fcb3f37c4a1.jpg",
+    "static/media/about7.jpg": "/static/media/about7.76ec39e09ca8ef1674d5.jpg",
+    "static/media/about5.jpg": "/static/media/about5.bcc03a18325789aeba5e.jpg",
+    "static/media/about6.jpg": "/static/media/about6.c76d7121fcc8ad21e37f.jpg",
+    "static/media/studywme2.png": "/static/media/studywme2.f1eeb86cb5bf5d200725.png",
     "static/media/acmresearch3.jpeg": "/static/media/acmresearch3.69adf53bc5b5923c6413.jpeg",
+    "static/media/studywme3.png": "/static/media/studywme3.1897221a30b1696f329d.png",
+    "static/media/studywme1.png": "/static/media/studywme1.7c40c71f7e0905722bbe.png",
     "static/media/acmresearch.png": "/static/media/acmresearch.ab40ca73d4db5ed5f9c8.png",
-    "static/media/neonphoto5.jpeg": "/static/media/neonphoto5.ed457f479422da3a4b7f.jpeg",
-    "static/media/neonphoto.jpeg": "/static/media/neonphoto.4fd00af7d1308619ee83.jpeg",
-    "static/media/neonphoto2.jpeg": "/static/media/neonphoto2.ef8a713c10011e4ebdc8.jpeg",
-    "static/media/neonphoto4.jpeg": "/static/media/neonphoto4.8b756fc7b40f701a1db4.jpeg",
-    "static/media/neonphoto3.jpeg": "/static/media/neonphoto3.5f3788b704397f32b028.jpeg",
+    "static/media/about1.jpg": "/static/media/about1.399f6ea051a622ee9f71.jpg",
     "static/media/profile.PNG": "/static/media/profile.2594a5840231f4e4ccc6.PNG",
     "static/media/acmresearch2.png": "/static/media/acmresearch2.89f3166ae04f22c34eb1.png",
     "index.html": "/index.html",
-    "main.02ab49ab.css.map": "/static/css/main.02ab49ab.css.map",
-    "main.2cacfe6a.js.map": "/static/js/main.2cacfe6a.js.map"
+    "main.5d80f09d.css.map": "/static/css/main.5d80f09d.css.map",
+    "main.818bd0fe.js.map": "/static/js/main.818bd0fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.02ab49ab.css",
-    "static/js/main.2cacfe6a.js"
+    "static/css/main.5d80f09d.css",
+    "static/js/main.818bd0fe.js"
   ]
 }
