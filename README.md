@@ -12,4 +12,5 @@ Personal Portfolio made in React.js and Sass
 - Bootstrap Icons
 - scroll-react
 
-![Screenshot 2023-12-19 at 1 45 38 PM](https://github.com/notJamesHan/notjameshan.github.io/assets/77949696/0fd2ccb1-7e99-4a6f-9384-6e37aad3d838)
+<img width="1510" alt="image" src="https://github.com/notJamesHan/notjameshan.github.io/assets/77949696/0ff455ac-a50a-499e-ab49-66a69b51c2e8">
+
