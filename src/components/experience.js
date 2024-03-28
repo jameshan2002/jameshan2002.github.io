@@ -33,8 +33,10 @@ const Card = ({ name, job, date, bulletpoints, imageSrc, url, skills }) => {
           )}
         </div>
 
-        <h3 className="subHeader">{job}</h3>
-        <p className="used">{date}</p>
+        <div className="flex">
+          <h3 className="subHeader">{job}</h3>
+          <p className="used">{date}</p>
+        </div>
         {bulletpoints.map((bulletpoint, index) => (
           <p className="text" key={index}>
             • {bulletpoint}
@@ -55,7 +57,7 @@ const experience = () => {
   return (
     <div className="card-container">
       <Fade cascade triggerOnce>
-        <h1>Experiences</h1>
+        <h1>Experience</h1>
       </Fade>
       <div className="grid">
         {data.experiences.map((experience, index) => (

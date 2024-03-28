@@ -1,8 +1,8 @@
-.full-Header {
-  width: 80vw;
-  margin: 0 auto;
-  margin-top: 10vh;
+$medium: 1300px;
+$large: 2500px;
 
+.full-Header {
+  margin-top: 10vh;
   .navbar-wrapper {
     display: flex;
     align-items: center;
@@ -35,40 +35,81 @@
   }
 
   .headings {
-    margin-top: 15vh;
+    margin-top: 10vh;
     .site-wrapper {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 70px;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: 30px 0 60px 0;
     }
     h2 {
-      font-size: var(--header-font-size);
-      text-align: center;
+      font-size: var(--title-font-size);
     }
     h1 {
-      font-size: 4em;
-      text-align: center;
-      line-height: 70px;
+      font-size: var(--title-font-size);
       margin: 0;
-      @include media(">=250px", "<lgphone") {
-        font-size: 1.5em;
-        line-height: 30px;
-        margin: 0;
-      }
-      @include media(">=lgphone", "<tablet") {
-        font-size: 1.5em;
-        line-height: 30px;
-        margin: 0;
-      }
-      @include media(">=tablet", "<desktop") {
-        font-size: 2.5em;
-        line-height: 50px;
-      }
     }
+    p {
+      font-size: var(--subheader-font-size);
+    }
+    .underline-text {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    .about-img {
+      // margin-left: 60px;
+      width: 80px;
+      height: 80px;
+      overflow: hidden !important;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin-bottom: 20px;
+    }
+
     .logos {
       cursor: pointer;
-      color: black;
+      color: rgb(113, 113, 121);
+    }
+  }
+}
+
+.padding-wrapper {
+  padding: 0 8rem;
+
+  @media screen and (max-width: $medium) {
+    padding: 0 1rem;
+  }
+}
+
+.cardList-about {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: var(--gap);
+  scrollbar-width: none;
+  height: 300px;
+
+  padding-left: 4.5rem;
+  padding-right: 5rem;
+
+  @media screen and (max-width: $medium) {
+    height: 200px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    width: 400px;
+    object-fit: cover;
+    object-position: 15% 10%; /* Show the top side of the picture */
+    margin-left: 3rem;
+
+    @media screen and (max-width: $medium) {
+      width: 300px;
+      margin-left: 1rem;
     }
   }
 }

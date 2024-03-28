@@ -1,29 +1,38 @@
-import neonphoto from "./photo/neonphoto.jpeg";
-import neonphoto2 from "./photo/neonphoto2.jpeg";
-import neonphoto3 from "./photo/neonphoto3.jpeg";
-import neonphoto4 from "./photo/neonphoto4.jpeg";
-import neonphoto5 from "./photo/neonphoto5.jpeg";
+// import neonphoto from "./photo/neonphoto.jpeg";
+// import neonphoto2 from "./photo/neonphoto2.jpeg";
+// import neonphoto3 from "./photo/neonphoto3.jpeg";
+// import neonphoto4 from "./photo/neonphoto4.jpeg";
+// import neonphoto5 from "./photo/neonphoto5.jpeg";
 import acmresearch from "./photo/acmresearch.png";
 import acmresearch2 from "./photo/acmresearch2.png";
 import acmresearch3 from "./photo/acmresearch3.jpeg";
+import about1 from "./photo/about1.jpg";
+import about2 from "./photo/about2.jpg";
+import about3 from "./photo/about3.jpg";
+import about4 from "./photo/about4.jpg";
+import about5 from "./photo/about5.jpg";
+import about6 from "./photo/about6.jpg";
+import about7 from "./photo/about7.jpg";
+import studywme1 from "./photo/studywme1.png";
+import studywme2 from "./photo/studywme2.png";
+import studywme3 from "./photo/studywme3.png";
 
 /* eslint-disable import/no-anonymous-default-export */
 export default {
   projects: [
     {
-      title: "Reinforcement Learning for Traffic Light Control", //Project Title - Add Your Project Title Here
-      para: "Researched the use of reinforcement learning to optimize the throughput of traffic through arbitrary road map layouts and traffic patterns advised by Dr. Yongwan Chun.", // Add Your Service Type Here
-      paraUsed: "Python · SUMO (Simulation of Urban MObility)",
+      title: "Studywme.com", //Project Title - Add Your Project Title Here
+      para: "Introduced real-time aggregation for 100+ YouTube “study-with-me” live streams using YouTube Rest API and PostgreSQL.",
+      paraUsed: "Next.js, Typescript, PostgreSQL, Prisma, Vercel, TailwindCSS",
       //Project Image - Add Your Project Image Here
-      imageSrc: [acmresearch, acmresearch2, acmresearch3],
+      imageSrc: [studywme1, studywme2, studywme3],
       //Project URL - Add Your Project Url Here
-      urlCode:
-        "https://github.com/ACM-Research/reinforcement-learning-traffic-control",
-      urlDemo: "",
+      urlCode: "",
+      urlDemo: "https://studywme.com",
     },
     {
       title: "Spending Habits App", //Project Title - Add Your Project Title Here
-      para: "An app giving a unique monthly summary of user's spending habits. Redesigned six visual pages with encouraging messages to help users reflect and improve their spending using React Native.", // Add Your Service Type Here
+      para: "An app giving a unique monthly summary of user's spending habits to help users reflect and improve their spending.", // Add Your Service Type Here
       paraUsed: "React Native, Javascript, Github",
       //Project Image - Add Your Project Image Here
       imageSrc: [
@@ -38,7 +47,7 @@ export default {
     },
     {
       title: "Study Helper Bot", //Project Title - Add Your Project Title Here
-      para: "A discord bot that helps users to study by giving study motivation features. The bot recommends study musics using youtube's REST API, times user's total study time and stores on MongoDB.", // Add Your Service Type Here
+      para: "Developed a Discord bot helping users to study such as finding study music and recording total study time.", // Add Your Service Type Here
       paraUsed: "Javascript, discord.js, MongoDB, Heroku",
       //Project Image - Add Your Project Image Here
       imageSrc: [
@@ -50,17 +59,26 @@ export default {
       urlCode: "https://github.com/notjameshan/discord-study-bot",
       urlDemo: "",
     },
+  ],
+  researchProject: [
     {
-      title: "National Park Service Website", //Project Title - Add Your Project Title Here
-      para: "An improved the US National Park Service Website by revitalizing the website’s design and user experience. Designed a new user interface for National Park using Sass and Figma. ", // Add Your Service Type Here
-      paraUsed: "React, Sass, Javascript",
+      title: "Classification of Imbalanced Data with LLM", //Project Title - Add Your Project Title Here
+      para: "Conducted imbalanced data classification using PyTorch and Large Language Models (LLM), advised by Dr. Latifur Khan.",
+      paraUsed: "Python · PyTorch",
       //Project Image - Add Your Project Image Here
-      imageSrc: [
-        "https://user-images.githubusercontent.com/77949696/161839924-207903fa-050e-4874-9db0-bc91ee3db134.png",
-      ],
+      imageSrc: undefined,
       //Project URL - Add Your Project Url Here
-      urlCode: "https://github.com/notjameshan/national-park-service-app",
-      urlDemo: "https://notjameshan.github.io/national-park-service-app/",
+      urlCode: "https://github.com/notJamesHan/Imbalanced-LLM",
+      urlDemo: "",
+    },
+    {
+      title: "Reinforcement Learning for Traffic Light Control",
+      para: "Researched reinforcement learning for traffic optimization on arbitrary road maps and patterns, advised by Dr. Yongwan Chun.",
+      paraUsed: "Python · SUMO (Simulation of Urban MObility)",
+      imageSrc: [acmresearch, acmresearch2, acmresearch3],
+      urlCode:
+        "https://github.com/ACM-Research/reinforcement-learning-traffic-control",
+      urlDemo: "",
     },
   ],
   experiences: [
@@ -70,10 +88,6 @@ export default {
       date: "Aug 2023 - Current",
       bulletpoints: [
         "Released Samsung's first photorealist AI avatar application at the Samsung Experience Store.",
-        "Led the development of local server hosting of the AWS and API Gateway, achieving a $3,000 cost reduction in AWS expenses leveraging Python, Docker, DynamoDB, Kubernetes, and AWS SAM.",
-        "Addressed and optimized production API issues by resolving bugs that handle over 2500+ monthly API calls.",
-        "Reduced API errors by integrating CI/CD pipelines and conducting stress and unit testing over 30+ API routes.",
-        "Revamped code structure improved by 70% in website loading speed by using TypeScript and Webpack.",
       ],
       imageSrc: [],
       url: "https://neonlife.ai",
@@ -81,14 +95,11 @@ export default {
         "Python · TypeScript · React.js · Amazon Web Services (AWS) · Docker · Kubernetes",
     },
     {
-      companyName: "Amazon - Recruiting Engine",
+      companyName: "Amazon",
       jobTitle: "Software Development Intern",
       date: "May 2023 - Aug 2023",
       bulletpoints: [
-        "Led redesign and launch of a fully automated interview scheduling website used by 30+ Amazon recruiters, using React, TypeScript, Java, AWS, and DynamoDB.",
-        "Maintained a stable database of over 500+ job applications through automated Type-checking and Server-Side Validation Testing.",
-        "Strengthened code quality by covering 83% of lines of automated unit and integration tests with Mockito.",
-        "Organized future phases of the application with four coworkers by writing an application design doc.",
+        "Restructured a full-stack automatic interview scheduling application used by 40 recruiters with Java, TypeScript, and React.",
       ],
       imageSrc: [],
       url: "https://www.amazon.jobs/en/teams/people-technology",
@@ -96,32 +107,39 @@ export default {
         "Java · TypeScript · React.js · Amazon Web Services (AWS) · Unit Testing",
     },
     {
-      companyName: "Samsung Research America - NEON",
+      companyName: "Samsung Research America",
       jobTitle: "Software Engineering Intern",
       date: "May 2022 - May 2023",
       bulletpoints: [
-        "Prototyped a real-time communication application with Virtual AI attracted a 150+ daily user base using React, TypeScript, WebRTC, and AWS.",
-        "Improved API performance by achieving a 65% faster response time by migrating from Flask to AWS Lambda functions and optimizing function logic using Python.",
-        "Implemented user authentication, roles, and security protocols for 50+ customers utilizing SQL and Python.",
+        "Prototyped a real-time communication app with Virtual AI for 500+ visitors with TypeScript, React, WebRTC, and AWS",
       ],
       imageSrc: [],
-      url: "https://neonlife.ai",
+      url: "",
       skills:
         "Python · Amazon Web Services (AWS) · TypeScript · React.js · Webrtc · SQL · Docker · Kubernetes",
     },
     {
+      companyName: "University of Texas at Dallas",
+      jobTitle: "Undergraduate Researcher",
+      date: "january 2024 - Current",
+      bulletpoints: [
+        "Conducted imbalanced data classification using PyTorch and Large Language Models (LLM), advised by Dr. Latifur Khan.",
+      ],
+      imageSrc: [],
+      url: "https://acmutd.co/",
+      skills: "Python · Pytorch",
+    },
+    {
       companyName: "ACM Research",
-      jobTitle: "Research Assistant",
+      jobTitle: "Undergraduate Researcher",
       date: "january 2022 - May 2022",
       bulletpoints: [
-        "Researched the use of reinforcement learning to optimize the throughput of traffic through arbitrary road map layouts and traffic patterns advised by Dr. Yongwan Chun.",
-        "Collaborated with a group of five by dividing parts into machine learning, data analyzing, and visualization.",
-        "Implemented a model that used a Q-learning algorithm to control the traffic light states at any given time.",
-        "Saw an exponential decay in total vehicle waiting time as the model continued to learn.",
+        "Researched reinforcement learning for traffic optimization on arbitrary road maps and patterns, advised by Dr. Yongwan Chun.",
       ],
       imageSrc: [],
       url: "https://acmutd.co/",
       skills: "Python · SUMO (Simulation of Urban MObility)",
     },
   ],
+  headerPictures: [about1, about2, about4, about5, about6, about7, about3],
 };

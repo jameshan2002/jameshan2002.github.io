@@ -52,7 +52,7 @@ const Card = ({ heading, paragraph, codeUsed, imgUrl, demoLink, codeLink }) => {
 const projects = () => {
   return (
     <div className="card-container">
-      <h1>Projects</h1>
+      <h1>Project</h1>
       <div className="grid">
         {data.projects.map((project, index) => (
           <Card
