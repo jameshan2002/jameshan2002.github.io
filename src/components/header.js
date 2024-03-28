@@ -53,10 +53,11 @@ const Header = () => {
             <h1>Hi 👋, I'm James.</h1>
             <h1>I'm a Software Developer & AI Researcher.</h1>
             <p>
-              I love building software 💻, exploring new researches 🔬, and
+              I love building software 💻, exploring new research 🔬, and
               solving problems 💡.
-              <br /> <br />I have been prevliged to work at prestigous companies
-              such as{" "}
+              <br /> <br />
+              As a software engineer, I have been privileged to work at
+              prestigious companies such as{" "}
               <a
                 href="https://sra.samsung.com/"
                 target="_blank"
@@ -73,9 +74,9 @@ const Header = () => {
                 className="underline-text"
               >
                 @amazon
-              </a>{" "}
-              as a software engineer.
-              <br /> <br />I am currently working at{" "}
+              </a>
+              .
+              <br /> <br />I work at{" "}
               <a
                 href="https://sra.samsung.com/"
                 target="_blank"
@@ -84,8 +85,8 @@ const Header = () => {
               >
                 @samsung
               </a>{" "}
-              as a SWE and Undergraduate Reseacher at The University of Texas at
-              Dallas.
+              as a SWE and Undergraduate researcher at The University of Texas
+              at Dallas.
               <br /> <br />
               If you're interested, let's chat.
               <br /> <br />
