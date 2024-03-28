@@ -51,10 +51,10 @@ const Header = () => {
           <img className="about-img" src={profile} alt="Profile" />
           <Fade triggerOnce>
             <h1>Hi 👋, I'm James.</h1>
-            <h1>I build and expand my experiences.</h1>
+            <h1>I'm a Software Developer & AI Researcher.</h1>
             <p>
-              I love building software 💻, exploring new reserches 🔬, and
-              telling awesome stories 📜.
+              I love building software 💻, exploring new researches 🔬, and
+              solving problems 💡.
               <br /> <br />I have been prevliged to work at prestigous companies
               such as{" "}
               <a

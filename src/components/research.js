@@ -1,7 +1,15 @@
 import data from "../myData.js";
 //import Profile from "./images/weather.png";
 
-const Card = ({ heading, paragraph, codeUsed, imgUrl, demoLink, codeLink }) => {
+const Card = ({
+  heading,
+  paragraph,
+  codeUsed,
+  imgUrl,
+  demoLink,
+  codeLink,
+  date,
+}) => {
   return (
     <article className="content">
       {imgUrl ? (
@@ -41,6 +49,7 @@ const Card = ({ heading, paragraph, codeUsed, imgUrl, demoLink, codeLink }) => {
             </a>
           )}
         </div>
+        <p className="used">{date}</p>
         <p className="text">{paragraph}</p>
 
         {codeUsed === "" || undefined || null ? (
@@ -67,6 +76,7 @@ const researches = () => {
             imgUrl={project.imageSrc}
             demoLink={project.urlDemo}
             codeLink={project.urlCode}
+            date={project.date}
           ></Card>
         ))}
       </div>

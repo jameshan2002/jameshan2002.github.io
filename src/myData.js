@@ -70,6 +70,7 @@ export default {
       //Project URL - Add Your Project Url Here
       urlCode: "https://github.com/notJamesHan/Imbalanced-LLM",
       urlDemo: "",
+      date: "Jan 2024 - Current",
     },
     {
       title: "Reinforcement Learning for Traffic Light Control",
@@ -79,6 +80,7 @@ export default {
       urlCode:
         "https://github.com/ACM-Research/reinforcement-learning-traffic-control",
       urlDemo: "",
+      date: "January 2022 - May 2022",
     },
   ],
   experiences: [
@@ -114,25 +116,25 @@ export default {
         "Prototyped a real-time communication app with Virtual AI for 500+ visitors with TypeScript, React, WebRTC, and AWS",
       ],
       imageSrc: [],
-      url: "",
+      url: "https://neonlife.ai",
       skills:
         "Python · Amazon Web Services (AWS) · TypeScript · React.js · Webrtc · SQL · Docker · Kubernetes",
     },
     {
       companyName: "University of Texas at Dallas",
       jobTitle: "Undergraduate Researcher",
-      date: "january 2024 - Current",
+      date: "January 2024 - Current",
       bulletpoints: [
         "Conducted imbalanced data classification using PyTorch and Large Language Models (LLM), advised by Dr. Latifur Khan.",
       ],
       imageSrc: [],
-      url: "https://acmutd.co/",
+      url: "",
       skills: "Python · Pytorch",
     },
     {
       companyName: "ACM Research",
       jobTitle: "Undergraduate Researcher",
-      date: "january 2022 - May 2022",
+      date: "January 2022 - May 2022",
       bulletpoints: [
         "Researched reinforcement learning for traffic optimization on arbitrary road maps and patterns, advised by Dr. Yongwan Chun.",
       ],

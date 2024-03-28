@@ -27,7 +27,7 @@ const Card = ({ name, job, date, bulletpoints, imageSrc, url, skills }) => {
                 rel="noopener noreferrer"
                 className="link"
               >
-                View Website
+                Team Website
               </a>
             </>
           )}
