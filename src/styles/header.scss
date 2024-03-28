@@ -102,13 +102,14 @@ $large: 2500px;
   .card {
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
-    width: 400px;
     object-fit: cover;
-    object-position: 15% 10%; /* Show the top side of the picture */
+    width: auto;
     margin-left: 3rem;
 
     @media screen and (max-width: $medium) {
-      width: 300px;
+      width: auto;
+      object-fit: cover;
+      object-position: 15% 10%; /* Show the top side of the picture */
       margin-left: 1rem;
     }
   }

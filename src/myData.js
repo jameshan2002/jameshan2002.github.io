@@ -9,7 +9,7 @@ import acmresearch3 from "./photo/acmresearch3.jpeg";
 import about1 from "./photo/about1.jpg";
 import about2 from "./photo/about2.jpg";
 import about3 from "./photo/about3.jpg";
-import about4 from "./photo/about4.jpg";
+import about4 from "./photo/about4.png";
 import about5 from "./photo/about5.jpg";
 import about6 from "./photo/about6.jpg";
 import about7 from "./photo/about7.jpg";
