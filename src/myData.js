@@ -87,7 +87,7 @@ export default {
     {
       companyName: "Samsung Research America",
       jobTitle: "Software Engineering Intern",
-      date: "Aug 2023 - Current",
+      date: "Aug 2023 - Mar 2024",
       bulletpoints: [
         "Released Samsung's first photorealist AI avatar application at the Samsung Experience Store.",
       ],

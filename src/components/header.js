@@ -76,17 +76,8 @@ const Header = () => {
                 @amazon
               </a>
               .
-              <br /> <br />I work at{" "}
-              <a
-                href="https://sra.samsung.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="underline-text"
-              >
-                @samsung
-              </a>{" "}
-              as a SWE and Undergraduate researcher at The University of Texas
-              at Dallas.
+              <br /> <br />I am researching as an Undergraduate researcher at
+              The University of Texas at Dallas.
               <br /> <br />
               If you're interested, let's chat.
               <br /> <br />
