@@ -21,7 +21,7 @@ const photoData = [
 
 export default function PhotoGallerySection() {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto md:px-4 py-16">
       <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">
         Moments
       </h2>
@@ -29,7 +29,7 @@ export default function PhotoGallerySection() {
         {photoData.map((photo, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-md overflow-hidden"
+            className="bg-white rounded-lg shadow-sm border overflow-hidden"
           >
             <div className="relative h-64">
               <Image
@@ -40,6 +40,7 @@ export default function PhotoGallerySection() {
                 height={400}
               />
             </div>
+            <hr />
             <div className="p-4">
               <p className="text-sm text-gray-600 italic">{photo.caption}</p>
             </div>

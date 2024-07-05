@@ -62,7 +62,7 @@ const timelineData = [
 
 export default function WorkTimeline() {
   return (
-    <div className="container mx-auto p-8">
+    <div className="container mx-auto md:p-4 pt-16">
       <h2 className="text-3xl font-bold mb-12 text-center">Timeline</h2>
       <div className="relative max-w-5xl mx-auto">
         {/* Vertical line */}

@@ -46,7 +46,7 @@ const projectsData = [
 
 export default function ProjectsSection() {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto md:px-4 py-16">
       <h2 className="text-3xl font-bold mb-8 text-center">
         Research / Projects
       </h2>

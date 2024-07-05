@@ -19,10 +19,10 @@ export default function Profile() {
           I like to learn AI and build cool stuff. 💻
         </p>
         <div className="flex justify-center space-x-4">
-          <a href="https://github.com/notjameshan" className="social-icon">
+          <a href="https://github.com/notjameshan" className="">
             <Image src="/github.svg" alt="GitHub" width={24} height={24} />
           </a>
-          <a href="mailto:contactjameshan@gmail.com" className="social-icon">
+          <a href="mailto:contactjameshan@gmail.com" className="">
             <Image
               src="/envelope-solid.svg"
               alt="Email"
@@ -30,10 +30,7 @@ export default function Profile() {
               height={24}
             />
           </a>
-          <a
-            href="https://www.linkedin.com/in/jvmeshan"
-            className="social-icon"
-          >
+          <a href="https://www.linkedin.com/in/jvmeshan" className="">
             <Image src="/linkedin.svg" alt="LinkedIn" width={24} height={24} />
           </a>
         </div>
