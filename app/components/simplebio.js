@@ -5,9 +5,9 @@ export default function SimpleBio() {
       <div className="bg-gray-100 container mx-auto p-6">
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-700 leading-relaxed mb-4">
-            Hi 👋 my name is James, and I am an incoming graduate student at The
-            University of Texas at Dallas. Currently as a software engineer, I
-            have been privileged to work at prestigious companies such as{" "}
+            Hi 👋 my name is James, and I am a masters student at The University
+            of Texas at Dallas. I have been privileged to work at prestigious
+            companies such as{" "}
             <a
               href="https://sra.samsung.com/"
               target="_blank"

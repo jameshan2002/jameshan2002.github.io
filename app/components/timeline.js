@@ -3,25 +3,32 @@ import Image from "next/image";
 
 const timelineData = [
   {
-    year: "2024 - ?",
+    year: "2024 - Current",
     company: "Learning...",
     logo: "/photo/logo-popcat.jpeg",
     description:
       "Learning about Deep Learning and NLP through Andrew Ng's Deep Learning course and Andrej Kapathy's course.",
   },
   {
-    year: "2024 - Future",
+    year: "2024 Sep - Current",
     company: "Univeristy of Texas at Dallas",
     logo: "/photo/logo-dallas.jpeg",
     description:
-      "Going back for Masters in Computer Science, focusing on Intelligent Systems (AI, ML, NLP).",
+      "Just been part of Graduate Research Assistant for Dr. Latifur Khan, working on LLM Fairness Research.",
   },
   {
-    year: "2024 June - Present",
+    year: "2024 Aug - Current",
+    company: "Univeristy of Texas at Dallas",
+    logo: "/photo/logo-dallas.jpeg",
+    description:
+      "Studying Masters in Computer Science, focusing on Intelligent Systems (AI, ML, NLP).",
+  },
+  {
+    year: "2024 June - 2024 Sep",
     company: "Amazon",
     logo: "/photo/logo-amazon.jpeg",
     description:
-      "I am a Software Development Intern at Amazon, working with Kindle Team.",
+      "Went back for Software Development Intern at Amazon, worked with Kindle Team.",
   },
   {
     year: "2020 - 2024",
