@@ -1,36 +1,59 @@
 // components/SimpleBio.js
 export default function SimpleBio() {
   return (
-    <section className="rounded-lg pb-16">
+    <section className="rounded-lg">
       <div className="bg-gray-100 container mx-auto p-6">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-2xl mx-auto text-base">
           <p className="text-gray-700 leading-relaxed mb-4">
-            Hi 👋 my name is James, and I am a masters student at The University
-            of Texas at Dallas. I have been privileged to work at prestigious
-            companies such as{" "}
+            Hi! I'm James, and I'm passionate about exploring the intersections
+            of AI and human interaction. Currently, I'm pursuing my M.Sc. in
+            Computer Science at{" "}
             <a
-              href="https://sra.samsung.com/"
+              href="https://www.utdallas.edu/"
               target="_blank"
               rel="noreferrer"
               className="underline-text text-blue-500"
             >
-              @samsung
+              The University of Texas at Dallas
+            </a>
+            , where I'm working as a Graduate Research Assistant under Dr.
+            Latifur Khan, focusing on LLM Fairness Research.
+          </p>
+
+          <p className="text-gray-700 leading-relaxed mb-4">
+            I've had the privilege of working at leading tech companies like{" "}
+            <a
+              href="https://www.amazon.jobs"
+              target="_blank"
+              rel="noreferrer"
+              className="underline-text text-blue-500"
+            >
+              Amazon
             </a>{" "}
             and{" "}
             <a
-              href="https://www.amazon.jobs/en/teams/people-technology"
+              href="https://research.samsung.com/"
               target="_blank"
               rel="noreferrer"
               className="underline-text text-blue-500"
             >
-              @amazon
+              Samsung Research America
             </a>
             .
+            {/* At Samsung, I contributed to NEON, an Artificial Human Assistant
+            project that received significant media attention. During my time at
+            Amazon, I worked with both the Kindle and Recruiting Engine teams,
+            gaining valuable experience in large-scale software development.
+          **/}
           </p>
+
           <p className="text-gray-700 leading-relaxed">
-            I am developing and learning AI focusing on Natural Language
-            Processing. I'm passionate about exploring the future of AI and want
-            to make an impact to the world.
+            My research journey began as an Undergraduate Researcher, where I
+            worked on Imbalanced Data Classification with LLMs. I'm currently
+            deepening my knowledge in Deep Learning and NLP through advanced
+            coursework and independent study. My goal is to push the boundaries
+            of AI technology while ensuring it remains fair, ethical, and
+            beneficial to society.
           </p>
         </div>
       </div>

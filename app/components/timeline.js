@@ -75,7 +75,7 @@ const timelineData = [
     logo: "/photo/logo-samsung.jpeg",
     description: (
       <>
-        Software Engineering Intern at Samsung and work on{" "}
+        Software Engineering Intern at Samsung Research America and work on{" "}
         <FormattedText type="bold">NEON</FormattedText>, an Aritficial Human
         Assistant. My work with the team got featured in Huge News Stations.
         Also helped prototyping new non-released projects.
@@ -99,7 +99,8 @@ const timelineData = [
     logo: "/photo/logo-samsung.jpeg",
     description: (
       <>
-        Software Engineering Intern at Samsung, working with Team NEON,{" "}
+        Software Engineering Intern at Samsung Research America, working with
+        Team NEON,{" "}
         <FormattedText type="bold">Artificial Human Assistant</FormattedText>.
         Prototyped and created packages and full stack applications for NEON
         system.
