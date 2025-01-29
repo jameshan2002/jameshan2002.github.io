@@ -16,8 +16,7 @@ export default function SimpleBio() {
             >
               The University of Texas at Dallas
             </a>
-            , where I'm working as a Graduate Research Assistant under Dr.
-            Latifur Khan, focusing on LLM Fairness Research.
+            .
           </p>
 
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -51,9 +50,7 @@ export default function SimpleBio() {
             My research journey began as an Undergraduate Researcher, where I
             worked on Imbalanced Data Classification with LLMs. I'm currently
             deepening my knowledge in Deep Learning and NLP through advanced
-            coursework and independent study. My goal is to push the boundaries
-            of AI technology while ensuring it remains fair, ethical, and
-            beneficial to society.
+            coursework and independent study.
           </p>
         </div>
       </div>

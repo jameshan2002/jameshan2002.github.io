@@ -35,7 +35,7 @@ const timelineData = [
     ),
   },
   {
-    year: "2024 Sep - Current",
+    year: "2024 Sep - 2024 Dec",
     company: "Univeristy of Texas at Dallas",
     logo: "/photo/logo-dallas.jpeg",
     description: (
